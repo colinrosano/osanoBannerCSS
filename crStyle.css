@@ -17,6 +17,8 @@
   --secGrayBlue: #393577;
 }
 
+/* Banner */
+
 /* not entirely certain on the button background color, or the color gradient on the banner, but leaving them for now. */
 
 .osano-cm-dialog {
@@ -41,4 +43,13 @@
 
 .osano-cm-toggle__switch {
   background-color: var(--primGray);
+}
+
+/* Drawer */
+
+.osano-cm-view--active,
+.osano-cm-info__info-dialog-header,
+p.osano-cm-header {
+  background-color: var(--primViolet);
+  color: var(--secGrayBlue);
 }
