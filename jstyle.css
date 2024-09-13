@@ -1,0 +1,36 @@
+
+/* Cookie Banner */
+
+/* Not happy with the Manage Preferences button at the moment. I know that it needs to stand out, but I'm not in love with the yellow being used. Maybe another high contrast color should be used?
+
+Not happy with the default 'x' button either */
+
+.osano-cm-dialog {
+    background: linear-gradient(68.42deg, #7a3ff1 17.05%, #4053f8 92.55%);
+    font-weight: 500;
+}
+
+.osano-cm-link {
+    color: #30d5c8;
+}
+
+.osano-cm-button {
+    background: #fef541;
+}
+
+/* Manage Preferences */
+
+.osano-cm-info{
+    background: linear-gradient(68.42deg, #7a3ff1 17.05%, #4053f8 92.55%);
+    font-weight: 500;
+    color: white;
+}
+
+.osano-cm-disclosure__toggle, .osano-cm-toggle {
+    color: white;
+}
+
+/* The 'x' button in Manage Preferences still needs work */
+/* The 'Save' button needs work too. */
+
+
