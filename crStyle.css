@@ -1,0 +1,44 @@
+/* banner styling 1 - Colin */
+
+:root {
+  /* primary pallete */
+  --primPurple: #7a3ff1;
+  --primViolet: #f0e7fa;
+  --primDarkGrayBlue: #180d43;
+  --primGray: #5f5867;
+  --primDarkGray: #0e0416;
+
+  /* secondary pallete */
+  --secYellow: #eeb155;
+  --secViolet: #c57ec4;
+  --secGreen: #37cd8f;
+  --seclightblue: #3da9f0;
+  --secPeach: #f09f92;
+  --secGrayBlue: #393577;
+}
+
+/* not entirely certain on the button background color, or the color gradient on the banner, but leaving them for now. */
+
+.osano-cm-dialog {
+  /* background-color: var(--primPurple); */
+  opacity: 95%;
+  background: linear-gradient(#7a3ff1, #393577);
+  border-radius: 10px;
+  margin: 10px;
+  color: var(--primViolet);
+}
+
+.osano-cm-button {
+  background-color: var(--primViolet);
+}
+
+.osano-cm-button:hover {
+  background-color: var(--secViolet);
+  transition: ease-out 0.3s;
+}
+
+/* would like to remove the lighter gray on the toggle when hovering, but retain the green when active.  */
+
+.osano-cm-toggle__switch {
+  background-color: var(--primGray);
+}
