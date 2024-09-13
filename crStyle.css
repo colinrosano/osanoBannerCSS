@@ -47,6 +47,8 @@
 
 /* Drawer */
 
+/* need to somehow remove the linear gradient present on the drawer header in order for the styling to take effect. */
+
 .osano-cm-view--active,
 .osano-cm-info__info-dialog-header,
 p.osano-cm-header {
